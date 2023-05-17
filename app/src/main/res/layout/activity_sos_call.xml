@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_shape"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Sos_Call">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency SOS Call"
+
+        android:textColor="#D32F2F"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="185dp"
+        android:layout_height="128dp"
+        android:src="@drawable/big_call"
+        />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="30dp"
+
+        android:hint="Enter Valid Number"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey"
+        android:textSize="21sp"
+        android:theme="@style/Theme.AppCompat" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="288dp"
+        android:layout_height="253dp"
+        android:background="@color/white"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/emr" />
+
+</LinearLayout>

@@ -1,0 +1,119 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/symptom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/aclonica"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Enter Your Symptoms!"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+
+    <EditText
+        android:id="@+id/Symptom_1"
+        android:layout_width="339dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:hint="Symptom 1"
+        android:background="@drawable/edit_text_bg"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/Symptom_2"
+        android:layout_width="339dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:hint="Symptom 2"
+        android:background="@drawable/edit_text_bg"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/Symptom_3"
+        android:layout_width="339dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:hint="Symptom 3"
+        android:background="@drawable/edit_text_bg"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/Symptom_4"
+        android:layout_width="339dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:hint="Symptom 4"
+        android:background="@drawable/edit_text_bg"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/Symptom_5"
+        android:layout_width="339dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:hint="Symptom 5"
+        android:background="@drawable/edit_text_bg"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/Symptom_6"
+        android:layout_width="339dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:hint="Symptom 6"
+        android:background="@drawable/edit_text_bg"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/Symptom_7"
+        android:layout_width="339dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:hint="Symptom 7"
+        android:background="@drawable/edit_text_bg"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+
+
+    <Button
+        android:id="@+id/predict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="predict disease" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="25sp" />
+
+</LinearLayout>
